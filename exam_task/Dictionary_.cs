@@ -96,7 +96,6 @@ namespace exam_task
                 Console.WriteLine($"Word {word} wasn't found");
             }
         }
-
         public string GetProjectRootPath()
         {
             var directory = new DirectoryInfo(Environment.CurrentDirectory);

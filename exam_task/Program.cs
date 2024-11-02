@@ -85,8 +85,6 @@ namespace exam_task
             }
         }
 
-
-
         static void AddWord(Dictionary_ dictionary_)
         {
             Console.Clear();
@@ -140,7 +138,7 @@ namespace exam_task
                 Console.WriteLine(ex.Message);
             }
         }
-        private static void ChangeTranslation(Dictionary_ dictionary_)
+        static void ChangeTranslation(Dictionary_ dictionary_)
         {
             Console.Write("Input word: ");
             string word = Console.ReadLine();
@@ -159,7 +157,7 @@ namespace exam_task
             }
             
         }
-        private static void ChangeWord(Dictionary_ dictionary_)
+        static void ChangeWord(Dictionary_ dictionary_)
         {
             Console.Write("Input old word: ");
             string oldWord = Console.ReadLine();
